@@ -5,13 +5,13 @@ import Footer from "./Footer";
 function App() {
     return (
         <>
-            <Header id={"header"} content={"This is the header"} />
-            <Main id={"main"} content={"This is the main"} />
-            <Footer id={"footer"} content={"This is the footer"} />
-        </>
-        // <div className="container">
+            <div className="container">
 
-        // </div>
+                <Header id={"header"} content={"This is the header"} />
+                <Main id={"main"} content={"This is the main"} />
+                <Footer id={"footer"} content={"This is the footer"} />
+            </div>
+        </>
     );
 }
 
