@@ -3,7 +3,7 @@ const Footer = (props)=>{
     return (
         <footer id={props.id}>
             <div className="container">
-            {props.content}
+                {props.content}
             </div>
             
         </footer>
