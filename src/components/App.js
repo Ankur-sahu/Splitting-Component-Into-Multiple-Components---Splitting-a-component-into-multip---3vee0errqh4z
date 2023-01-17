@@ -4,11 +4,14 @@ import Main from "./Main";
 import Footer from "./Footer";
 function App() {
     return (
-        <div className="container">
-            <Header id={"header"} content={"This is the header"} /> 
+        <>
+            <Header id={"header"} content={"This is the header"} />
             <Main id={"main"} content={"This is the main"} />
-            <Footer id={"footer"} content ={"This is the footer"} />
-        </div>
+            <Footer id={"footer"} content={"This is the footer"} />
+        </>
+        // <div className="container">
+
+        // </div>
     );
 }
 
