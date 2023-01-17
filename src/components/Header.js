@@ -2,11 +2,11 @@ import React from "react";
 
 const Header = (props)=>{
     return (
-        <header id={props.id}>
-            <div className="container">
+        <div id={props.id}>
                 {props.content}
-            </div>
-        </header>
+            {/* <div className="container">
+            </div> */}
+        </div>
     )
 }
 export default Header

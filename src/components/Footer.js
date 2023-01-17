@@ -1,12 +1,12 @@
 import React from "react";
 const Footer = (props)=>{
     return (
-        <footer id={props.id}>
-            <div className="container">
+        <div id={props.id}>
                 {props.content}
-            </div>
+            {/* <div className="container">
+            </div> */}
             
-        </footer>
+        </div>
     )
 }
 export default Footer
