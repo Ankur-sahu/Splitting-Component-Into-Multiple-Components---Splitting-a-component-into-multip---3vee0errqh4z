@@ -2,11 +2,11 @@
 import React from 'react'
 const Main = (props) =>{
     return(
-        <div id={props.id}>
+        <main id={props.id}>
                 {props.content}
             {/* <div className="container">
             </div> */}
-        </div>
+        </main>
     )
 }
 export default Main
