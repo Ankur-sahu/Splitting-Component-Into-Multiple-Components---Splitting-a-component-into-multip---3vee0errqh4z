@@ -2,7 +2,7 @@ import React from "react";
 const Footer = (props)=>{
     return (
         <footer id={props.id}>
-                {props.content}
+                <div>{props.content}</div>
             {/* <div className="container">
             </div> */}
             

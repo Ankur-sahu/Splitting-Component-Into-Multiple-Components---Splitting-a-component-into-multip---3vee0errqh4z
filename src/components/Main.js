@@ -3,7 +3,8 @@ import React from 'react'
 const Main = (props) =>{
     return(
         <main id={props.id}>
-                {props.content}
+            <div>{props.content}</div>
+                
             {/* <div className="container">
             </div> */}
         </main>
